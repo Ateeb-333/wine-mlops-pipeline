@@ -1,0 +1,38 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Test / lint caches
+.pytest_cache/
+.coverage
+htmlcov/
+.flake8_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# MLflow tracking data and registry
+mlruns/
+mlartifacts/
+mlflow.db
+
+# Transient model artifacts and outputs
+*.pkl
+*.joblib
+models/
+outputs/
+search_results.csv
+
+# Data (dataset is loaded from sklearn; keep folder only)
+data/*
+!data/.gitkeep
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
