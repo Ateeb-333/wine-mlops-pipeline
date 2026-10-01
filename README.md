@@ -1,6 +1,6 @@
 # Wine Cultivar Classification — MLOps Pipeline
 
-![CI](https://github.com/<YOUR_USERNAME>/wine-mlops-pipeline/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/Ateeb-333/wine-mlops-pipeline/actions/workflows/ci.yml/badge.svg)
 
 A reproducible MLOps pipeline for 3-class wine cultivar classification (`sklearn.datasets.load_wine`,
 178 samples, 13 features). It covers Makefile automation, 5-fold CV hyperparameter search over two
