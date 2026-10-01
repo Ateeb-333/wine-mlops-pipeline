@@ -33,11 +33,8 @@ MODEL_FAMILIES = {
 }
 
 SEARCH_SPACE: Dict[str, List[Dict[str, Any]]] = {
-    "RandomForest": <<<<<<< HEAD
-        {"n_estimators": 60, "max_depth": 3, "min_samples_leaf": 1},
-=======
+    "RandomForest": [
         {"n_estimators": 75, "max_depth": 3, "min_samples_leaf": 1},
->>>>>>> conflict-simulation
         {"n_estimators": 100, "max_depth": 5, "min_samples_leaf": 2},
         {"n_estimators": 200, "max_depth": None, "min_samples_leaf": 1},
     ],
