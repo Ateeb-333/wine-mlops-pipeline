@@ -4,8 +4,6 @@ Usage:
     python -m src.evaluate
 """
 
-import utils.transport
-import utils.session
 import argparse
 import time
 from typing import Dict
